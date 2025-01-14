@@ -14,8 +14,12 @@ sudo systemctl enable docker
 ```
 
 # Open Firewall
+```
 sudo ufw allow OpenSSH
+```
+```
 sudo ufw enable
+```
 
 # Allow Port 
 ```
