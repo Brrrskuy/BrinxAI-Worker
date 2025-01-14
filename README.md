@@ -38,6 +38,7 @@ chmod +x install_ubuntu.sh
 ```
 
 # Add Model to Active Worker rembg,text-ui,upscaller,stable-difusion (Click manualy turn models)
+![Cuplikan layar 2025-01-15 010039](https://github.com/user-attachments/assets/44a89a6e-44a4-4a5f-bb6c-f259ddda479c)
 
 # Run the Relay Image from Docker Hub
 ```
