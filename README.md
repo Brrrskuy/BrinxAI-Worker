@@ -33,7 +33,7 @@ sudo ufw allow 1194/udp
 ```
 docker pull admier/brinxai_nodes-worker:latest
 ```
-# Linux (Ubuntu)
+# Run Script on Linux (Ubuntu)
 ```
 git clone https://github.com/admier1/BrinxAI-Worker-Nodes
 cd BrinxAI-Worker-Nodes
