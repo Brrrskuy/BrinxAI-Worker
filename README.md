@@ -2,6 +2,11 @@
 - Buy VPS di : [t.me/skuycloud](t.me/skuycloud)
 - Trakteer buat buy Kopi : https://trakteer.id/brrrskuy/tip `<---`
 
+| **Requirement**         |
+|-------------------------|
+| 8GB/16GB RAM       |
+| 4core/8core    CPU   |
+
 # Install Docker
 ```
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
@@ -34,7 +39,7 @@ cd BrinxAI-Worker-Nodes
 chmod +x install_ubuntu.sh
 ./install_ubuntu.sh
 ```
-# Install this
+# Install Models on Worker Nodes
   **Stable Diffusion Models**
   ```
   docker run -d --name stable-diffusion --network brinxai-network --cpus=6 --memory=8192m -p 127.0.0.1:5060:5060 -e PORT=5060 admier/brinxai_nodes-stabled:latest
