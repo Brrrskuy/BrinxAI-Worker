@@ -57,7 +57,10 @@ chmod +x install_brinxai_worker_amd64.sh
   docker run -d --name rembg --network brinxai-network --cpus=2 --memory=4096m -p 127.0.0.1:7000:7000 admier/brinxai_nodes-rembg:latest
   ```
 # Run the Relay Image from Docker Hub
-`Note : Button relay not interactive , wait for next info to run this`
+`Note : Same to run worker nodes have UUID in relay`
 ```
-sudo docker run -d --name brinxai_relay --cap-add=NET_ADMIN -p 1194:1194/udp admier/brinxai_nodes-relay:latest# BrinxAI-Worker
+wget https://raw.githubusercontent.com/admier1/BrinxAI-Relay-Nodes/refs/heads/main/install_brinxai_relay_amd64.sh
+```
+```
+chmod +x install_brinxai_relay_amd64.sh && ./install_brinxai_relay_amd64.sh
 ```
