@@ -59,8 +59,8 @@ chmod +x install_brinxai_worker_amd64_deb.sh
 # Run the Relay Image from Docker Hub
 `Note : Same to run worker nodes have UUID in relay`
 ```
-wget https://raw.githubusercontent.com/admier1/BrinxAI-Relay-Nodes/refs/heads/main/install_brinxai_relay_amd64.sh
+wget https://raw.githubusercontent.com/admier1/BrinxAI-Relay-Nodes/refs/heads/main/install_brinxai_relay_amd64_deb.sh
 ```
 ```
-chmod +x install_brinxai_relay_amd64.sh && ./install_brinxai_relay_amd64.sh
+chmod +x install_brinxai_relay_amd64_deb.sh && ./install_brinxai_relay_amd64_deb.sh
 ```
