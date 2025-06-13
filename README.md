@@ -36,8 +36,8 @@ https://brinxai.com/login
 ```
 git clone https://github.com/admier1/BrinxAI-Worker-Nodes
 cd BrinxAI-Worker-Nodes
-chmod +x install_brinxai_worker_amd64.sh
-./install_brinxai_worker_amd64.sh
+chmod +x install_brinxai_worker_amd64_deb.sh
+./install_brinxai_worker_amd64_deb.sh
 ```
 # Install Models on Worker Nodes
   **Stable Diffusion Models**
